@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -121,6 +122,13 @@ body {
   text-decoration: none;
 }
 
+.bienvenida {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
 .bton {
   display: inline-block;
   margin-left: 40%;
@@ -238,6 +246,9 @@ div .bton2:hover {
 .reservas {
   padding: 40px;
   text-align: center;
+}
+.reservas .mesa {
+  font-size: 30px;
 }
 .reservas form {
   margin: 0 auto;
