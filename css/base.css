@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #ffdea1;
+}
+footer .navRedes {
+  text-align: center;
+}
+footer .navRedes .liRedes {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2vh;
+  margin-right: 20px;
+}
+footer .navRedes .liRedes .redesSocialesIg {
+  display: inline-block;
+  margin: 4px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: 0.7s;
+}
+footer .navRedes .liRedes .redesSocialesIg:hover {
+  transform: rotate(-360deg) scale(1.35);
+}
+footer .navRedes .liRedes .redesSocialesFb {
+  display: inline-block;
+  color: rgb(0, 110, 255);
+  text-decoration: none;
+  transition: 0.7s;
+  margin: 4px;
+}
+footer .navRedes .liRedes .redesSocialesFb:hover {
+  transform: rotate(360deg) scale(1.35);
+  color: rgb(0, 110, 255);
+}
+footer .navRedes .liRedes .redesSocialesTw {
+  display: inline-block;
+  color: rgb(0, 183, 255);
+  text-decoration: none;
+  transition: 0.7s;
+  background-clip: text;
+  margin: 4px;
+}
+footer .navRedes .liRedes .redesSocialesTw:hover {
+  transform: rotate(-360deg) scale(1.35);
+  color: rgb(0, 183, 255);
+}
+footer .navRedes .liRedes .redesSocialesTk {
+  display: inline-block;
+  transition: 0.7s;
+  margin: 4px;
+}
+footer .navRedes .liRedes .redesSocialesTk img {
+  vertical-align: sub;
+}
+footer .navRedes .liRedes .redesSocialesTk:hover {
+  transform: rotate(360deg) scale(1.35);
+}
+footer .copyright {
+  text-align: center;
+  font-size: 20px;
+  padding: 7px;
+  font-style: italic;
+}
+
+header {
+  background-color: #fad083;
+  color: #fff;
+  padding: 10px 20px;
+}
+header .logo img {
+  max-width: 140px;
+  margin: 10px;
+}
+header div .nav-item {
+  font-size: 20px;
+}
+header div .nav-item .nav-link {
+  transition: 0.5s;
+}
+header div .nav-item .nav-link:hover {
+  color: rgb(255, 81, 0) !important;
+  transform: scale(1.15);
+}
+header div .nav-item .active {
+  color: black !important;
+  transition: 0.4s;
+}
+header div .nav-item .active:hover {
+  color: rgb(80, 80, 80) !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe7bb;
+}
+
+.p__index1 {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.p__index {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p__index .clickaqui {
+  text-decoration: none;
+}
+
+.bton {
+  display: inline-block;
+  margin-left: 40%;
+  width: 20%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.bton:hover {
+  display: inline-block;
+  margin-left: 40%;
+  width: 20%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #ffd485;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.promociones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.promociones .promocion {
+  border: 1px solid #ffbe82;
+  padding: 60px;
+  margin: 30px;
+  text-align: center;
+  width: 35%;
+}
+.promociones .promocion .promo {
+  font-size: 18px;
+}
+.promociones .promocion .promonumero {
+  font-size: 24px;
+  color: #ff3c00;
+}
+
+.h3s {
+  margin: 20px;
+  text-align: center;
+}
+
+form div {
+  margin-top: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+form div label {
+  display: block;
+  margin-bottom: 1px;
+  text-align: center;
+}
+form div .inputs {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+
+div .bton2 {
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+div .bton2:hover {
+  display: inline-block;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #ffd485;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.mapadiv {
+  border: 3px solid rgb(255, 186, 106);
+  display: flex;
+  margin: 3vh auto;
+  width: 75%;
+}
+.mapadiv .mapa {
+  width: 100%;
+}
+
+.reservas {
+  padding: 40px;
+  text-align: center;
+}
+.reservas form {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 20px;
+}
+.reservas form label {
+  display: block;
+  margin-bottom: 1px;
+  text-align: center;
+}
+.reservas form .inputs {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.reservas form .bton {
+  display: inline-block;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.reservas form .bton:hover {
+  display: inline-block;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #ffd485;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.integrantes {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.p__index {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div .h3s {
+  margin: 20px;
+  text-align: center;
+}
+
+.cards__nosotros .container {
+  align-items: center;
+}
+.cards__nosotros .container div {
+  align-items: center;
+  align-self: center;
+  margin: 0px;
+}
+.cards__nosotros .container div .card {
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25%;
+  background-color: #fad083 !important;
+}
+.cards__nosotros .container div .card .card-body {
+  background-color: #fad083 !important;
+}
+.cards__nosotros .container div .card .card-body .card-title {
+  text-align: center;
+  font-size: 20px;
+}
+.cards__nosotros .container div .card .card-body .card-text {
+  font-size: 17px;
+}
+
+.menu {
+  padding: 40px;
+  text-align: center;
+}
+.menu .nombremenu {
+  font-size: 30px;
+}
+.menu div .p__index {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu div .h3s {
+  margin: 20px;
+  text-align: center;
+}
+.menu div .precio {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=base.css.map */

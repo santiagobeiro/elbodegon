@@ -1,0 +1,26 @@
+.menu {
+    .nombremenu {
+        font-size: 30px;
+    }
+    div{
+        .p__index {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .h3s {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .precio {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #ff6600;
+            font-weight: bold;
+        }
+    }
+@include section (40px, center)
+}

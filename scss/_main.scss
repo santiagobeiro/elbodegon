@@ -1,0 +1,44 @@
+.p__index1 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.p__index {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .clickaqui {
+        text-decoration: none;
+    }
+}
+
+.bton {
+    &:hover {
+    @include botones (inline-block, 40%, 20%, center, 10px 20px, #ffd485, #000000, none, none, 5px, pointer, 1s)
+    }
+    @include botones (inline-block, 40%, 20%, center, 10px 20px, #FFA500, #fff, none, none, 5px, pointer, 1s)
+}
+
+.promociones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .promocion {
+        border: 1px solid #ffbe82;
+        padding: 60px;
+        margin: 30px;
+        text-align: center;
+        width: 35%;
+        .promo {
+            font-size: 18px;
+        }
+        .promonumero {
+            font-size: 24px;
+            color: #ff3c00;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@mixin section($px, $center)
+{
+    padding: $px;
+    text-align: $center;
+}
+
+@mixin botones($inblock, $marleft, $width, $center, $padding, $bcolor, $color, $textdeco, $borde, $borderadio, $cursor, $transition)
+
+{
+    display: $inblock;
+    margin-left: $marleft;
+    width: $width;
+    text-align: $center;
+    padding: $padding;
+    background-color: $bcolor;
+    color: $color;
+    text-decoration: $textdeco;
+    border: $borde;
+    border-radius: $borderadio;
+    cursor: $cursor;
+    transition: $transition;
+}
