@@ -50,4 +50,9 @@
             color: #ff3c00;
         }
     }
+    @media (max-width: 768px) {
+        .promocion {
+          width: 100%;
+        }
+    }
 }
